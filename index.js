@@ -9,5 +9,5 @@ btnColor.addEventListener("click", () => {
     // const setColorLabel =`rgb(${red}, ${green}, ${blue})`;
     // console.log(setColorLabel);
     const setColorLabel = colorLabel.innerHTML = `rgb(${red}, ${green}, ${blue})`;
-    body.style.backgroundColor = setColorLabel;
+    body.style.backgroundColor = setColorLabel; 
 });
